@@ -1,57 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     --cor-primaria: #ff6311;
     --cor-secundaria: #2c2b2b;
-}
-
-.cabecalho{
+  }
+  
+  .cabecalho {
     background-color: var(--cor-secundaria);
     padding: 10px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.cabecalho-menu ul{
+  }
+  
+  .cabecalho-menu ul {
     display: flex;
     list-style-type: none;
     gap: 35px;
-}
-
-.cabecalho-menu ul li a{
+  }
+  
+  .cabecalho-menu ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-.principal{
-    background-image: url(../img/banner.png);
-    height: 700px;
+  }
+  
+  .principal {
+    background-image: url("../img/banner.png");
+    height: 630px;
     width: 100%;
     background-size: cover;
     background-position: center;
-    
-}
-
-.principal-conteudo{
+  }
+  
+  .principal-conteudo {
     width: 40%;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     gap: 30px;
-    color: white; 
-    position: relative;
+    color: white;
     top: 300px;
-}
-
-.principal-conteudo h1{
+    left: 50px;
+  }
+  
+  .principal-conteudo h1 {
     font-size: 60px;
-}
-
-.principal-conteudo a{
+  }
+  
+  .principal-conteudo a {
     width: 200px;
     height: 35px;
     background-color: var(--cor-primaria);
@@ -60,25 +56,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.card{
-    border: 2px solid red;
+  }
+  
+  .card {
     width: 400px;
     height: 500px;
-}
-
-.card-img figure img{
+    background-color: var(--cor-secundaria);
+  }
+  
+  .card-img figure img {
     width: 100%;
-}
-
-.card-conteudo{
+  }
+  
+  .card-conteudo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding: 15px;
-    background-color: var(--cor-secundaria);
     color: white;
-}
+  }
+  
+  .card-conteudo p {
+    text-align: justify;
+  }
+  
+  section {
+    padding: 20px 50px;
+  }
+  
+  .secao-dance {
+    background-color: var(--cor-primaria);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .cabecalho-secao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .cabecalho-secao p {
+    text-align: justify;
+  }
+  
+  .container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
