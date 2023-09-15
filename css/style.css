@@ -251,7 +251,7 @@
     padding: 50px;
     color: white;
     display: flex;
-    
+    font-size: 30px;    
   }
 
   .titulo-statistics{
@@ -261,6 +261,12 @@
     font-size: 50px;
   }
 
-  .img-hebert{
-    width: 150%;
+  .img-hebert-simon{
+    background:url(../img/sec-4.png);
+  }
+
+  .figure, img, p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
