@@ -237,7 +237,10 @@
 
   .cabecalho-statistics p{
     padding: 25px;
-    font-size: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-statistics{
@@ -256,4 +259,8 @@
     text-align: center;
     color: white;
     font-size: 50px;
+  }
+
+  .img-hebert{
+    width: 150%;
   }
