@@ -170,6 +170,10 @@
 
   }
 
+  .secao-statistics{
+    background-color: #2c2b2b;
+  }
+
   .container-amazing{
     display: flex;
     flex-direction: row;
@@ -221,3 +225,26 @@
   }
 
   /*teste aqui*/
+
+  .secao-statistics{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    flex-wrap: wrap;
+
+  }
+
+  .conteudo-statistics{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+  }
+
+  .titulo-statistics h2{
+    color: white;
+  }
