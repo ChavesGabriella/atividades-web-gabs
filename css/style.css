@@ -235,16 +235,25 @@
 
   }
 
-  .conteudo-statistics{
-    width: 50%;
-    display: flex;
+  .cabecalho-statistics p{
+    padding: 25px;
+    font-size: 30px;
+  }
+
+  .card-statistics{
+    width: 100%;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    display: flex;
+    
+  }
+
+  .titulo-statistics{
     padding: 50px;
     text-align: center;
     color: white;
-  }
-
-  .titulo-statistics h2{
-    color: white;
+    font-size: 50px;
   }
