@@ -226,47 +226,155 @@
 
   /*teste aqui*/
 
-  .secao-statistics{
-    width: 100%;
+  .secao-statics {
+    background-color: var(--cor-secundaria);
     color: white;
-    text-align: center;
-    padding: 25px;
+    height: 500px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-
+    gap: 80px;
   }
-
-  .cabecalho-statistics p{
-    padding: 25px;
+  
+  .secao-statics .container-cards {
+    gap: 150px;
+  }
+  
+  .card-statics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card-statics h3 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .card-statics span {
+    font-size: 25px;
+  }
+  
+  .secao-herbert {
+    background-color: var(--cor-secundaria);
+    background-image: url("../img/sec-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    height: 600px;
+    color: white;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  
+  .secao-herbert p {
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    line-height: 1.5;
   }
-
-  .card-statistics{
+  
+  .secao-subscribe {
+    background-color: var(--cor-primaria);
+    height: 400px;
+    gap: 50px;
+  }
+  
+  .secao-subscribe form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .secao-subscribe form input {
+    height: 35px;
+    width: 300px;
+    padding: 5px 15px;
+    border: none;
+  }
+  
+  .secao-subscribe form button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    cursor: pointer; /*altera o curso para  a "mãozinha" */
+  
+    background-color: var(--cor-secundaria);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .secao-subscribe form button:hover {
+    background-color: var(--cor-primaria);
+    border: 3px solid var(--cor-secundaria);
+    color: var(--cor-secundaria);
+  }
+  
+  footer {
+    padding: 40px 50px;
+    background-color: var(--cor-secundaria);
+    color: white;
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
-    color: white;
+  
     display: flex;
-    font-size: 30px;    
+    flex-wrap: wrap;
   }
-
-  .titulo-statistics{
-    padding: 50px;
-    text-align: center;
-    color: white;
-    font-size: 50px;
+  
+  /*
+    dividi o footer em duas colunas. 
+    A primeira coluna se refere a parte de musicology, pois ela tem um tamanho um pouco maior. Darei 60% do espaço à ela. 
+    A segunda coluna irá incorporar as três colunas de menu (About, Services e Other) e terá 40% do footer. 
+  */
+  
+  footer .col-1 {
+    width: 60%;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
-
-  .img-hebert-simon{
-    background:url(../img/sec-4.png);
+  
+  footer .redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
   }
-
-  .figure, img, p{
+  
+  footer .col-2 {
+    width: 40%;
+  
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  footer .footer-menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  footer .footer-menu-links ul {
+    list-style: none;
+  }
+  
+  footer .footer-menu-links ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer .footer-menu-links ul li a:hover {
+    color: var(--cor-primaria);
   }
